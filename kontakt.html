@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Tehno Zgurić</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="kosarica.html">🛒 Košarica (<span id="cart-count">0</span>)</a></li>
+				<li><a href="shop.html">Webshop</a></li>
+				<li><a href="login.html">🔑 Prijava</a></li>
+            </ul>
+        </nav>
+    </header>
+		<form id="contactForm">
+    <label for="name">Ime i prezime:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email adresa:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Poruka:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Pošalji</button>
+</form>
+
+
+
+    
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Kontaktirajte nas</h2>
+            <p>Imate pitanje? Pošaljite nam poruku!</p>
+            <form class="contact-form">
+                <label for="name">Ime i prezime</label>
+                <input type="text" id="name" placeholder="Vaše ime" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Vaš email" required>
+                <label for="message">Poruka</label>
+                <textarea id="message" placeholder="Vaša poruka" required></textarea>
+                <button type="submit">Pošalji</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Tehno Zgurić. Sva prava pridržana.</p>
+            <p>Adresa: Prekopa 39, Glina 44400 | Telefon: 099 658 0324</p>
+        </div>
+    </footer>
+</body>
+</html>
